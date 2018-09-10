@@ -1,0 +1,17 @@
+---
+logs:
+  level: DEBUG
+  token: ~
+bismark:
+  appId: bismark-s2-0.18.1u3
+  name: bismark_test
+  archive: true
+  archivePath: ""
+  archiveSystem: ""
+  inputs:
+    fastq1: ""
+    genome_folder: ""
+  notifications:
+    -
+      event: FAILED
+      url: jawon@tacc.utexas.edu
